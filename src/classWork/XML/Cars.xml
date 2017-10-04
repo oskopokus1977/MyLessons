@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cars>
+    <car id="bus">
+        <mark>Ikarus</mark>
+        <year>1983</year>
+        <passenger>55</passenger>
+        <cargo>1000</cargo>
+    </car>
+    <car id="track">
+        <mark>DAF</mark>
+        <year>2008</year>
+        <passenger>3</passenger>
+        <cargo>35000</cargo>
+    </car>
+
+    <car id="auto">
+        <mark>VAZ</mark>
+        <year>2017</year>
+        <passenger>5</passenger>
+        <cargo>600</cargo>
+    </car>
+</cars>

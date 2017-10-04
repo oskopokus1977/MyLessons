@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<people>
+    <human sex="man">
+        <name>Angus Young</name>
+        <name>Slash</name>
+        <name>Keith Richards</name>
+    </human>
+    <human sex="woman">
+        <name>Brigitte Bardot</name>
+        <name>Sophia Loren</name>
+        <name>Audrey Hepburn</name>
+    </human>
+</people>
