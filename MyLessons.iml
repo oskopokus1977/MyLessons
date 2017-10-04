@@ -11,5 +11,7 @@
     <orderEntry type="library" name="json-simple-1.1.1" level="project" />
     <orderEntry type="library" name="h2-1.4.196" level="project" />
     <orderEntry type="library" name="mysql-connector-java-5.1.44-bin" level="project" />
+    <orderEntry type="library" name="hibernate-core-5.2.11.Final" level="project" />
+    <orderEntry type="library" name="persistence-api-1.0.2" level="project" />
   </component>
 </module>
