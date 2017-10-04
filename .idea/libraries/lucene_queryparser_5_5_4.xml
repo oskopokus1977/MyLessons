@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lucene-queryparser-5.5.4">
+    <CLASSES>
+      <root url="jar://D:/MyLibrarys/hibernate-search-5.8.0.Final/dist/lib/required/lucene-queryparser-5.5.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
