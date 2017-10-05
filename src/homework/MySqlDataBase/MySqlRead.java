@@ -8,7 +8,7 @@ public class MySqlRead {
       Class.forName("com.mysql.jdbc.Driver");
 
 
-        try (Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/hillel?serverTimesone=UTC","root", "root")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/hillel","root", "root")) {
             Statement statement = connection.createStatement();
             System.out.println("5 for programming have:");
             ResultSet resultSet = statement.executeQuery("select concat (lastname, ' ',left(firstname, 1),'.') as fullname from students where id in (select student_id from subjects where programming = 5)");

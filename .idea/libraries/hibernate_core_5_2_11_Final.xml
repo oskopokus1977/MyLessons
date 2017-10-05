@@ -4,6 +4,8 @@
       <root url="jar://D:/MyLibrarys/hibernate-search-5.8.0.Final/dist/lib/required/hibernate-core-5.2.11.Final.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/hibernate-core-5.2.11.Final-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
