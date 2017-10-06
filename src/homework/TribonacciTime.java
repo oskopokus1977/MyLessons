@@ -1,9 +1,11 @@
 package homework;
 
+import java.util.concurrent.TimeUnit;
+
 //Написать программу, которая будет считать n-ный элемент последовательности Трибоначчи (каждый следующий элемент - сумма трех предыдущих).
 // И циклом, и рекурсивно. Сравнить быстродействие.
 public class TribonacciTime {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
       // System.out.print("");
         int number = 25;
 
@@ -11,6 +13,8 @@ public class TribonacciTime {
         System.out.println(tribonacciCycle(number));
         long finishCycle = System.currentTimeMillis();
         System.out.println("tribonacciCycle time = " + (finishCycle - startCycle));
+
+        //TimeUnit.SECONDS.sleep(1);
 
         long startRecursion = System.currentTimeMillis();
         System.out.println(tribonacciRecursion(number));
