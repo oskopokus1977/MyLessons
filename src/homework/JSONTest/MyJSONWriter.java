@@ -9,7 +9,7 @@ import java.io.*;
 
 public class MyJSONWriter {
     public static void main(String[] args) {
-        String path = "D:\\Юра\\МОИ ДОКУМЕНТЫ\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\homework\\JSONTest\\JSONFile.json";
+        String path = "D:\\MyLessons\\src\\homework\\JSONTest\\JSONFile.json";
         try (FileWriter writer = new FileWriter(new File(path))) {
 
             JSONObject people = new JSONObject();

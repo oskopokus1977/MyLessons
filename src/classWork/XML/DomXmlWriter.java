@@ -61,7 +61,7 @@ public class DomXmlWriter {
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
         DOMSource source = new DOMSource(document);
-        StreamResult result = new StreamResult(new File("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\peopleDOMWriter.xml"));
+        StreamResult result = new StreamResult(new File("D:\\MyLessons\\src\\classWork\\XML\\peopleDOMWriter.xml"));
         transformer.transform(source, result);
     }
 }

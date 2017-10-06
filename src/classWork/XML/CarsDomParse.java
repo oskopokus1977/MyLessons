@@ -16,7 +16,7 @@ import static org.w3c.dom.Node.ELEMENT_NODE;
 public class CarsDomParse {
     public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
 
-        File inputFile = new File("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\Cars.xml");
+        File inputFile = new File("D:\\MyLessons\\src\\classWork\\XML\\Cars.xml");
 
         DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = dbFactory.newDocumentBuilder();

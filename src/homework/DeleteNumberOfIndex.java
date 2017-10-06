@@ -8,7 +8,7 @@ public class DeleteNumberOfIndex {
 
     public static void main(String[] args) {
         int[] array = {1, 0, 9, 2, 8, 3, 7, 4, 7, 5};
-        System.out.println(Arrays.toString(arrayDelNumber(array, 6)));
+        System.out.println(Arrays.toString(arrayDelNumber(array, 3)));
     }
 
     static int[] arrayDelNumber(int[] array, int index) {

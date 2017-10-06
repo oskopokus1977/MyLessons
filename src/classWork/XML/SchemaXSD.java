@@ -14,10 +14,10 @@ public class SchemaXSD {
     public static void main(String[] args) throws SAXException, IOException {
 
         SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
-        Schema schema = factory.newSchema(new File("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\ShemeXSD.xsd"));
+        Schema schema = factory.newSchema(new File("D:\\MyLessons\\src\\classWork\\XML\\ShemeXSD.xsd"));
         Validator validator = schema.newValidator();
-        validator.validate(new StreamSource(new File("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\peopleDOMWriter.xml")));
-        validator.validate(new StreamSource(new File("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\peopleStAXWriter.xml")));
+        validator.validate(new StreamSource(new File("D:\\MyLessons\\src\\classWork\\XML\\peopleDOMWriter.xml")));
+        validator.validate(new StreamSource(new File("D:\\MyLessons\\src\\classWork\\XML\\peopleStAXWriter.xml")));
 
     }
 }

@@ -10,7 +10,7 @@ public class StAXXmlWriter {
     public static void main(String[] args) throws IOException, XMLStreamException {
 
         XMLOutputFactory factory = XMLOutputFactory.newInstance();
-        XMLStreamWriter writer = factory.createXMLStreamWriter(new FileWriter("D:\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\XML\\peopleStAXWriter.xml"));
+        XMLStreamWriter writer = factory.createXMLStreamWriter(new FileWriter("D:\\MyLessons\\src\\classWork\\XML\\peopleStAXWriter.xml"));
 
         writer.writeStartDocument();
         writer.writeStartElement("people");
