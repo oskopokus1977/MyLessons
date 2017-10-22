@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class JSParser {
     public static void main(String[] args) {
-        String path = "C:\\МОИ ДОКУМЕНТЫ\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\JSON\\studentWrit.json";
+        String path = "D:\\MyLessons\\src\\classWork\\JSON\\studentWrit.json";
         try (FileReader reader = new FileReader(path)) {
             JSONParser parser = new JSONParser();
             JSONObject object = (JSONObject) parser.parse(reader);

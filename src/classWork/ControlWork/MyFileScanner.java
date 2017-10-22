@@ -8,7 +8,7 @@ public class MyFileScanner {
     static ArrayList<String> upper = new ArrayList<>();
     static ArrayList<String> lower = new ArrayList<>();
 
-    private MyXMLReader reader = new MyXMLReader("C:\\МОИ ДОКУМЕНТЫ\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\ControlWork\\conf.xml");
+    private MyXMLReader reader = new MyXMLReader("D:\\MyLessons\\src\\classWork\\ControlWork\\conf.xml");
 
     void scanLine() throws IOException, XMLStreamException {
 

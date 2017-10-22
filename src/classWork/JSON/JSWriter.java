@@ -7,7 +7,7 @@ import java.io.*;
 
 public class JSWriter {
     public static void main(String[] args) {
-        String patch = "C:\\МОИ ДОКУМЕНТЫ\\HILLEL.HOMEWORK\\JavaElementary\\HomeWork\\hillel.homework\\src\\edu\\hillel\\javaElementary\\classWork\\JSON\\studentWrit.json";
+        String patch = "D:\\MyLessons\\src\\classWork\\JSON\\studentWrit.json";
         try (FileWriter writer = new FileWriter(new File(patch))) {
 
             JSONObject student = new JSONObject();

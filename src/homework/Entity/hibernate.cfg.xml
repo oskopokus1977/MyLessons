@@ -4,15 +4,14 @@
         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
         <session-factory>
-
                 <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-                <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hillel?serverTimesone=UTC
+                <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hillel
                 </property>
                 <property name="hibernate.connection.username">root</property>
                 <property name="hibernate.connection.password">root</property>
                 <property name="hibernate.connection.pool_size">1</property>
+                <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
                 <property name="show_sql">true</property>
-                <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
                 <mapping class="homework.Entity.Students"/>
 

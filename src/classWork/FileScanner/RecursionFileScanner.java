@@ -30,6 +30,18 @@ public class RecursionFileScanner implements MyScanners, Serializable {
         return this.count;
     }
 
+//    @Override
+//    public ArrayList<String> scanLine(String word) throws IOException {
+//        this.list.addAll(scanner.scanLine(word));
+//        for (File c : scanner.file.listFiles()) {
+//            if (c.isDirectory()) {
+//                scanner.file = new File(c.getPath());
+//                scanLine(word);
+//            }
+//        }
+//        return this.list;
+//    }
+
     @Override
     public ArrayList<String> scanLine(String word) throws IOException {
         this.list.addAll(scanner.scanLine(word));

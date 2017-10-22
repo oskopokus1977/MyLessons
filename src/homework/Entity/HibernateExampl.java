@@ -8,9 +8,9 @@ import java.io.File;
 public class HibernateExampl {
 
     public static void main(String[] args) {
-      File file = new File("D:\\MyLessons\\src\\homework\\Entity\\hibernate.cfg.xml");
+      //File file = new File("D:\\MyLessons\\src\\homework\\Entity\\hibernate.cfg.xml");
       SessionFactory sessionFactory = new Configuration()
-              .configure(file)
+              .configure()
               .buildSessionFactory();
 
         Session session = sessionFactory.openSession();
